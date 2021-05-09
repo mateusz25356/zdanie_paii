@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ruch2</title>
+<meta charset="UTF-8">
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+function oblicz()
+{
+	var s = document.getElementById("s").value;
+	var t = document.getElementById("t").value;
+	var wynik = (s/t)
+	document.getElementById("oblicz").innerHTML = wynik   
+}
+</script>
+
+</head>    
+<body background="bg.png">
+<div id="pudlo">
+<a href="https://mateusz25356.github.io/zdanie_paii/"><img src="button.png" width="200"></a><br><br><br>
+<img src="https://1.bp.blogspot.com/-zUWFLoFKveo/XnoN4CLjSaI/AAAAAAAAVmU/S5vBLQn2uFY-pu2_pC84LP-quZoxAOebgCLcBGAsYHQ/s1600/wz%25C3%25B3r%2Bruch%2Bjednostajny%2Bprostoliniowy.png" width="400"><br>
+	s= 
+	<input type="text" id="s"> <br/>
+
+	t=
+	<input type="text" id="t"><br/>
+
+	<button onclick="oblicz()">oblicz</button><br>
+
+<div id="oblicz"><br></div>
+<br><br><br><br><br><br><br><br>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ruch</title>
+<meta charset="UTF-8">
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+function oblicz()
+{
+	var w = document.getElementById("w").value;
+	var t = document.getElementById("t").value;
+	var wynik = (w / t) 
+	document.getElementById("oblicz").innerHTML = wynik   
+}
+</script>
+
+</head>    
+<body background="bg.png">
+<div id="pudlo">
+<a href="https://mateusz25356.github.io/zdanie_paii/"><img src="button.png" width="200"></a><br><br><br>
+<img src="https://image.slidesharecdn.com/pracamocenergia-110917174018-phpapp01/95/praca-moc-energia-6-728.jpg?cb=1316281313" width="400"><br>
+	w= 
+	<input type="text" id="w"> <br/>
+
+	t=
+	<input type="text" id="t"><br/>
+
+	<button onclick="oblicz()">oblicz</button><br>
+
+<div id="oblicz"><br></div>
+<br><br><br><br><br><br><br><br>
+
+</div>
+</body>
+</html>

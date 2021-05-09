@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>gęstość</title>
+<meta charset="UTF-8">
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+function oblicz()
+{
+	var m = document.getElementById("m").value;
+	var v = document.getElementById("v").value;
+	var wynik = (m/v)
+	document.getElementById("oblicz").innerHTML = wynik   
+}
+</script>
+
+</head>    
+<body background="bg.png">
+<div id="pudlo">
+<a href="https://mateusz25356.github.io/zdanie_paii/"><img src="button.png" width="200"></a><br><br><br>
+<img src="https://leszekbober.pl/wp-content/uploads/2019/06/wz%C3%B3r-na-g%C4%99sto%C5%9B%C4%87-300x191.png" width="400"><br>
+	m= 
+	<input type="text" id="m"> <br/>
+
+	v=
+	<input type="text" id="v"><br/>
+
+	<button onclick="oblicz()">oblicz</button><br>
+
+<div id="oblicz"><br></div>
+<br><br><br><br><br><br><br><br>
+
+</div>
+</body>
+</html>

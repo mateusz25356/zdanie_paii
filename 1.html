@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ciśnienie</title>
+<meta charset="UTF-8">
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+function oblicz()
+{
+	var g1 = document.getElementById("g1").value;
+	var p1 = document.getElementById("p1").value;
+	var h1 = document.getElementById("h1").value;
+	var wynik = (g1 * p1 * h1)
+	document.getElementById("oblicz").innerHTML = wynik   
+}
+</script>
+
+</head>    
+<body background="bg.png">
+<div id="pudlo">
+<a href="https://mateusz25356.github.io/zdanie_paii/"><img src="button.png" width="200"></a><br><br><br>
+<img src="https://slideplayer.pl/slide/842543/2/images/15/Ci%C5%9Bnienie+hydrostatyczne.jpg" width="400"><br>
+	g= 
+	<input type="text" id="g1"> <br/>
+
+	q=
+	<input type="text" id="p1"><br/>
+
+	h= 
+	<input type="text" id="h1"> <br/>
+	<button onclick="oblicz()">oblicz</button><br>
+
+<div id="oblicz"><br></div>
+<br><br><br><br><br><br><br><br>
+
+</div>
+</body>
+</html>
